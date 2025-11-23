@@ -16,12 +16,12 @@ export default function ProjectsPage() {
   }, [username]);
 
   const filteredRepos = repos.filter((repo) =>
-    repo.name.toLowerCase().includes(searchProject.toLowerCase())
+    repo.name.toLocaleLowerCase().includes(searchProject.toLocaleLowerCase())
   );
 
   return (
     <div className="home-page projects-page">
-      <h2 className="projects-title">GitHub Projects</h2>
+      <h2 className="projects-title">GITHUB PROJECTS</h2>
 
       <div className="search-box">
         <input
@@ -36,7 +36,12 @@ export default function ProjectsPage() {
       <div className="projects-container">
         {filteredRepos.map((repo) => (
           <div key={repo.id} className="project-item">
-            <h3 className="project-name">{repo.name}</h3>
+            <h3 className="project-name">
+              {repo.name
+                .replaceAll("-", " ")
+                .replaceAll("_", " ")
+                .toUpperCase()}
+            </h3>
             <a href={repo.html_url} target="_blank" className="project-link">
               View on GitHub
             </a>
