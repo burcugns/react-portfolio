@@ -6,9 +6,9 @@ function Header() {
     <header>
       <h1>BURCU GUNES</h1>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/">HOME</Link>
+        <Link to="/projects">PROJECTS</Link>
+        <Link to="/contact">CONTACT</Link>
       </nav>
     </header>
   );

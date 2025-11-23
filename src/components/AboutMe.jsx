@@ -2,17 +2,15 @@ function AboutMe() {
   return (
     <>
       <div className="about-me-container">
-        <div className="about-me-header">
-          <h2 className="about-me-title">Junior Full Stack Developer</h2>
-          <div className="about-me-description">
-            <p>
-              Hello, I am Burcu. I am a career switcher from healthcare to
-              software development. I'm eager and curious, and I build projects
-              to practice and reinforce what I learn. I enjoy solving problems,
-              exploring new technologies, and turning ideas into functional,
-              user-focused applications.
-            </p>
-          </div>
+        <h2 className="about-me-title">Junior Full Stack Developer</h2>
+        <div className="about-me-description">
+          <p>
+            Hello, I am Burcu. I am a career switcher from healthcare to
+            software development. I'm eager and curious, and I build projects to
+            practice and reinforce what I learn. I enjoy solving problems,
+            exploring new technologies, and turning ideas into functional,
+            user-focused applications.
+          </p>
         </div>
       </div>
 
