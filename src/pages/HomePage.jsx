@@ -1,7 +1,13 @@
-import React from "react";
+import AboutMe from "../components/AboutMe";
+import ProjectCard from "../components/ProjectCard";
 
 function HomePage() {
-  return <div>Home Page</div>;
+  return (
+    <div className="home-page">
+      <AboutMe />
+      <ProjectCard />
+    </div>
+  );
 }
 
 export default HomePage;
