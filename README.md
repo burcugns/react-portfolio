@@ -76,3 +76,6 @@ react-portfolio/
 ```
 
 ## Deployment
+
+This is my project live on Render.com <br>
+https://react-portfolio-1-gbvg.onrender.com/
