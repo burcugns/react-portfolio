@@ -1,6 +1,6 @@
 # React Portfolio
 
-It is my personel portfolio created with React. It included my short bio, my GitHub projects, skills, and contact information.
+It is my personel portfolio created with React. It includes my short bio, my GitHub projects, skills, and contact information.
 
 ## Features
 
